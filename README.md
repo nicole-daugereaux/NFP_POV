@@ -6,18 +6,21 @@
 # Installing requirements
 * You may not need all the packages in the requirements file, but you can install them to your python like so (update the path as needed):
 
-```pip install -r requirements.txt
+```
+pip install -r requirements.txt
 ```
 
 
 # Running Tests
 * After installing the requirements, you can run Desktop tests from your terminal with the following command:
 
-```python3 NFP_Desktop.py
+```
+python3 NFP_Desktop.py
 ```
 * or for Real iOS Device Tests:
 
-```python3 NFP_RDC.py
+```
+python3 NFP_RDC.py
 ```
 
 
