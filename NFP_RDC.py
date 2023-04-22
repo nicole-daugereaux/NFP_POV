@@ -83,16 +83,16 @@ def run_sauce_test():
     }
 
     iosParameters = {
-    # Define iOS Parameters here
-        'appium:deviceName' : 'iPhone.*',
-        'platformName' : 'iOS',
-        'appium:platformVersion': '15',
-        'browserName' : 'safari',
-        'appium:automationName': 'XCUITest',
-        'sauce:options':{
-            'name': 'NFP Example Real Device Test',
-            'appiumVersion': '2.0.0',
-        },
+        # Define iOS Parameters here
+            'appium:deviceName' : 'iPhone.*',
+            'platformName' : 'iOS',
+            'appium:platformVersion': '15',
+            'browserName' : 'safari',
+            'appium:automationName': 'XCUITest',
+            'sauce:options':{
+                'name': 'NFP Example Real Device Test',
+                'appiumVersion': '2.0.0',
+            },
     }
 
     ###################################################################
