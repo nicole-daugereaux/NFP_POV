@@ -50,13 +50,8 @@ def run_sauce_test():
     # pokemon_names_url = urllib3.PoolManager().request('GET', 'https://raw.githubusercontent.com/sindresorhus/pokemon/master/data/en.json')
     # pokemon_names = json.loads(pokemon_names_url.data.decode('utf-8'))
     # random_pokemon = random.choice(pokemon_names)
-
-    ###################################################################
-    # Choose if you want Android of iOS capabilities
-    # Uncomment one of those lines
-    ###################################################################
-    # androidTest = True
-    # iosTest = True
+    
+    
 
     ###################################################################
     # Select Data Center
